@@ -7,10 +7,12 @@ public class BallSpawner : MonoBehaviour
     public float range = 9;
     public GameObject ball;
     public int numberOfBalls;
+    public int counter;
     
     // Start is called before the first frame update
     void Start()
     {
+        counter = numberOfBalls;
         while (numberOfBalls != 0)
         {
             Instantiate(ball,

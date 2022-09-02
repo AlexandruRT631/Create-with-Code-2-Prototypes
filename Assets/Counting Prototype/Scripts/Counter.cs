@@ -9,7 +9,7 @@ public class Counter : MonoBehaviour
 {
     public Text counterText;
 
-    private int count = 0;
+    public int count = 0;
 
     private void Start()
     {
